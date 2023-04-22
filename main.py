@@ -9,6 +9,7 @@ if __name__ == "__main__":
     n = st.number_input("Ingresa el número de fila que quieres ver", min_value=0, max_value=len(df), step=1
                         )
     if n!=0:
+        st.balloons()
         st.markdown("""
         <style>
         .big-font {
